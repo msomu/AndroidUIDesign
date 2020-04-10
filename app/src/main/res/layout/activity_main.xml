@@ -10,6 +10,7 @@
         android:id="@+id/imageViewHeader"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:contentDescription="@string/image_header"
         app:layout_constraintDimensionRatio="16:9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,6 +30,7 @@
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="150dp"
+        android:contentDescription="@string/image_poster"
         android:scaleType="centerCrop"
         app:layout_constraintDimensionRatio="w,3.5:4.5"
         app:layout_constraintStart_toStartOf="@+id/guideline"
@@ -43,10 +45,10 @@
         android:layout_marginLeft="16dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Joker"
+        android:text="@string/movie_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@android:color/white"
-        android:textSize="26dp"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewHeader"
         app:layout_constraintStart_toEndOf="@+id/imageView" />
 
