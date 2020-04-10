@@ -3,4 +3,8 @@
     <string name="movie_name">Joker</string>
     <string name="image_poster">Image Poster</string>
     <string name="image_header">Image Header</string>
+    <string name="movie_certificate">A</string>
+    <string name="movie_release_time">2019 &#8226; 122 mins</string>
+    <string name="rating">4.4</string>
+    <string name="rotten_rating">68%</string>
 </resources>
